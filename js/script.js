@@ -19,14 +19,34 @@ let conditionResult = name1 = 'mariam' ? 'true' : 'error';
 console.log(conditionResult);
 
 //  task #3
+let name1 = "mariam";
+
+switch (name1) {
+  case "mariam" :
+    alert("true");
+    break;
+
+  default:
+    alert("false");
+}
 
 
 // task #4
 
+for (let i = 5; i <= 100; i++) {
+    console.log(i);
+}
+
+
+// task #5
+
 let array1= [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12];
 
-for (let i = 1; i < 10; i++) {
-    console.log(array1[i]);   
+for (let index = 0; index < array1.length; index++) {
+    const element = array1[index];
+    if (element > 0 && element < 10) {
+        console.log(element);
+    }
 }
 
 // task #6
